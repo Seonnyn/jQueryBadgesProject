@@ -3,7 +3,7 @@ $(function() {
   $.ajax({
     url: 'https://www.codeschool.com/users/Seonnyn.json',
     type: 'GET',
-    datatype: 'jsonp',
+    dataType: 'jsonp',
     success: function(response) {
       console.log(response);
       $.each(response.courses.completed, function(ind, elem) {
